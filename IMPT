@@ -1,0 +1,7 @@
+A HOC named "Aux" isn't added alongside the files, as "Aux" is a reserved filename.
+
+Ergo create a file called "Aux.js" and place it under "/src/components/hoc" and paste the following:
+
+  const aux = (props) => props.children;
+  export default aux;
+
